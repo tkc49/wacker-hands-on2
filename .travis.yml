@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- '4'
+- '6'
+before_script:
+- touch hellow.txt
+script:
+- ls hellow.txt
+- ls index.html
